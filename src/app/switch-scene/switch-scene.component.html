@@ -1,0 +1,3 @@
+<select [ngModel]="model" (change)="onQuestionTypeChange($event.target.value)">
+  <option *ngFor="let item of dropdownList" [value]="item.value">{{item.text}}</option>
+</select>

@@ -1,0 +1,15 @@
+:host{
+  display: flex;
+  width: 100%;
+}
+
+app-input-scene{
+  width: 200px;
+}
+app-switch-scene{
+  width: auto;
+  flex: 1;
+}
+app-result-scene{
+  width: 300px;
+}
